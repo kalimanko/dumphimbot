@@ -1,14 +1,15 @@
-// Beginning of global variables
 /** The host URL */
 var api = "http://api.giphy.com/v1/gifs/random?";
+
 /** The public beta key */
 var apiKey = "&api_key=dc6zaTOxFJmzC";
+
 /** The query; the + character for phrases consisting of 2+ words */
 var query = "&tag=funny+cat";
+
 /** True if the user wants to load from Giphy's entire collection; false
  * if they want to limit their search to the query */
 var searchAll = true;
-// End of global variables
 
 /**
  * Contains code that is executed once when the program begins.
