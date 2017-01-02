@@ -9,8 +9,8 @@ Currently, this WIP project forms a path given a search query (e.g. "funny cat")
 The Twitter API requires OAuth, which is handled by a server running our Node.js program. The Node package manager (npm) creates a JSON file called package.json (located within the `node` directory) and contains the metadata for this project, including its dependencies. Specifically, functionality for the Twitter API client is provided by [Twit](https://github.com/ttezel/twit), an open-source Node.js package.
 
 # How to contribute:
-1) Download p5.js [here](https://p5js.org/download/) (used for talking to the Giphy API)
-2) Download Node.js [here](https://nodejs.org/en/) (used for authentication of the Twitter handle on the server)
+ * Download p5.js [here](https://p5js.org/download/) (used for talking to the Giphy API)
+ * Download Node.js [here](https://nodejs.org/en/) (used for authentication of the Twitter handle on the server)
 
 # Additional references & documentation
 * Giphy API: https://github.com/Giphy/GiphyAPI
