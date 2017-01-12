@@ -3,18 +3,18 @@
 module.exports = {
 
   /** The host URL */
-  api: "http://api.giphy.com/v1/gifs/trending?",
+  api: "https://api.giphy.com/v1/gifs/search?",
 
   /** The public beta key */
   apiKey: "&api_key=dc6zaTOxFJmzC",
 
   /** The query; the + character for phrases consisting of 2+ words */
-  query: "&tag=???",
+  query: "q=",
 
   /** 
    * True if the user wants to load from Giphy's entire collection; false
    * if they want to limit their search to the query */
-  searchAll: true,
+  searchAll: false,
 
   /** 
    * True if the very first 'top trending' gif should always be selected;
@@ -27,11 +27,11 @@ module.exports = {
 
   /**
    * Creates the URL for the Giphy request.
+   * @param word: A string denoting the Word of the Day
    * @return A string
    */
-  getURL: function() {
-    var url = this.api + this.apiKey;
-    if (!this.searchAll) url += this.query;
+  getURL: function(word) {
+    var url = this.api + this.query + word + this.apiKey;
     return url;
   },
 
