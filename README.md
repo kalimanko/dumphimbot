@@ -1,5 +1,5 @@
 # Giph-Bot
-A small project to try out a Twitter bot with Giphy integration. It uploads GIFs according to a randomly selected "Word of the Day"
+A small project to try out a Twitter bot with Giphy integration. It uploads GIFs according to a randomly selected Word of the Day, every day!
  * Host: api.giphy.com
  * Public beta key: dc6zaTOxFJmzC
  * See Giph-Bot in action: [Click here](https://twitter.com/Giph_Bot)!
@@ -12,7 +12,7 @@ The Twitter API requires OAuth, which is handled by a server running the ./node/
 # How to contribute:
  * Download Node.js [here](https://nodejs.org/en/) (used for authentication of the Twitter handle on the server)
  * Clone this repo
- * Provide your own config.js file, which contains secret keys necessary to authenticate your own Twitter account (you can get started at [apps.twitter.com](https://apps.twitter.com/)
+ * Provide your own config.js file, which contains secret keys necessary to authenticate your own Twitter account (you can get started at [apps.twitter.com](https://apps.twitter.com/))
  * Think of a cool idea and get coding!
 
 # Additional references & documentation
