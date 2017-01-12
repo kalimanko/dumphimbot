@@ -10,7 +10,7 @@ Within a Node.js script, a "word of the day" is randomly selected from a pre-gen
 The Twitter API requires OAuth, which is handled by a server running the ./node/server.js script. The Node package manager (npm) creates a JSON file called package.json (located within the `node` directory) and contains the metadata for this project, including its dependencies. Specifically, functionality for the Twitter API client is provided by [Twit](https://github.com/ttezel/twit), an open-source Node.js package.
 
 # How to contribute:
- * Download Node.js [here](https://nodejs.org/en/) (used for authentication of the Twitter handle on the server)
+ * Download Node.js [here](https://nodejs.org/en/) 
  * Clone this repo
  * Provide your own config.js file, which contains secret keys necessary to authenticate your own Twitter account (you can get started at [apps.twitter.com](https://apps.twitter.com/))
  * Think of a cool idea and get coding!
